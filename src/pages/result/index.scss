@@ -1,0 +1,114 @@
+.result {
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background: #f5f5f5;
+  position: relative;
+  .banner{
+    background: url(../../static//img/gc.jpg) no-repeat
+  }
+
+  .r_top {
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+    top: -92px;
+    .search {
+      width: 100%;
+      position: absolute;
+      top: 120px;
+      .search_input {
+        width: 92%;
+        margin-left: 4%;
+        background-color: #fff;
+        border: 1px solid #999;
+        border-radius: 25px;
+        color: #000;
+        font-size: 28px;
+        height: 67px;
+        padding: 0 7%;
+        box-sizing: border-box;
+      }
+      .search_input::-webkit-input-placeholder {
+        text-align: left;
+        color: rgb(114, 114, 114);
+        font-size: 22px;
+        padding-right: 3%;
+      }
+      .iconfont {
+        position: absolute;
+        color: rgb(114, 114, 114);
+        top: 17px;
+        font-weight: bold;
+      }
+      .icon-right {
+        right: 5%;
+        font-size: 36px !important;
+      }
+      .icon-left {
+        left: 5%;
+        font-size: 36px !important;
+      }
+      .at-icon-close-circle {
+        font-size: 40px !important;
+      }
+      .extra-wrap {
+        z-index: 999;
+        position: absolute;
+        width: 92%;
+        left: 4%;
+        border-radius: 0 0 10px 10px;
+        border: 1PX solid #ccc;
+        box-shadow: 6px 6px #eee;
+      }
+    }
+  }
+  .resultWrap {
+    margin-top: 60px;
+    overflow: scroll;
+    flex:1; 
+    background: #fff;
+    // -webkit-overflow-scrolling: touch;   
+  }
+  .float-content{
+    font-size: 28px;
+  }
+  .voice {
+    position: fixed;
+    z-index: 999;
+    bottom: 60px;
+    width: 80%;
+    left: 10%;
+    height: 64px;
+    .at-button {
+      height: 64px;
+      line-height: 64px;
+      background: #028fd4;
+      border: #028fd4;
+      font-size: 30px;
+      .huatong {
+        font-size: 34px !important;
+      }
+    }
+  }
+  .at-toast {
+    .toast-body {
+      padding: 0;
+    }
+    .toast-body-content__img-item {
+      width: 120px;
+      height: auto;
+      min-height: 50px;
+    }
+    .toast-body-content__img {
+      line-height: 0;
+      text-align: center;
+      width: 50%;
+      margin: auto;
+    }
+    .toast-body-content__info {
+      font-size: 15px;
+    }
+  }
+}

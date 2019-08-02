@@ -1,0 +1,24 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  .at-nav-bar {
+    // background: url(../../static/img/banner.jpg) no-repeat;
+    // background-size: cover;
+    width: 100%;
+    // color: #fff;
+    background-color:rgba(0,0,0,0.3);
+    .at-nav-bar__title {
+      color: #fff;
+      font-size: 30px;
+      white-space: pre-wrap;
+      line-height: 40px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2; /*3表示只显示3行*/
+      /*! autoprefixer: ignore next */
+      -webkit-box-orient: vertical;
+    }
+  }
+}

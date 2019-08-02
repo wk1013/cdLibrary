@@ -1,0 +1,118 @@
+.service {
+    background: #eee;
+    min-height: 100vh;
+    .banner{
+      background:url(../../static/img/banner.jpg) no-repeat;
+      background-size:100% auto;
+      height: 420px;
+    }
+    .logo_wrap {
+      width: 100%;
+      margin-top: 30px;
+      // height: 350px;
+      // margin-bottom: 90px;
+      // background: url(../../static/img/banner.jpg) no-repeat;
+      // background-size: cover;
+      .logo {
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        font-weight: 800;
+        position: absolute;
+        // margin-bottom: 32px;
+        top: 62px;
+        // left: 50%;
+        // transform: translateX(-50%);
+      }
+      .search {
+        width: 100%;
+        position: relative;
+        // top: 440px;
+        .search_input {
+          width: 94%;
+          margin-left: 3%;
+          background-color: #fff;
+          border: 1px solid #999;
+          border-radius: 15px;
+          color: #000;
+          font-size: 28px;
+          height: 68px;
+          padding-left: 70px;
+          box-sizing: border-box;
+        }
+        .search_input::-webkit-input-placeholder {
+          text-align: left;
+          color: rgb(141, 138, 138);
+          font-size: 20px;
+          padding-right: 3%;
+        }
+        .iconfont {
+          position: absolute;
+          color: #000;
+          top: 14px;
+          
+        }
+        .icon-right {
+          right: 30px;
+          font-size: 46px !important;
+        }
+        .icon-left {
+          left: 30px;
+          font-size: 46px !important;
+        }
+        .at-icon-close-circle{
+          font-size: 40px !important;
+        }
+        .extra-wrap {
+          z-index: 999;
+          position: absolute;
+          width: 92%;
+          left: 4%;
+          border-radius: 0 0 10px 10px;
+          border: 1PX solid #ccc;
+        }
+      
+        
+      }
+    }
+
+
+    .voice {
+      position: fixed;
+      z-index: 999;
+      bottom: 150px;
+      width: 80%;
+      left: 10%;
+      height: 64px;
+      .at-button {
+        height: 64px;
+        line-height: 64px;
+        background: #028fd4;
+        border: #028fd4;
+        font-size: 30px;
+        .huatong {
+          font-size: 34px !important;
+        }
+      }
+    }
+    .at-toast {
+      .toast-body {
+        padding: 0;
+      }
+      .toast-body-content__img-item {
+        width: 120px;
+        height: auto;
+        min-height: 50px;
+      }
+      .toast-body-content__img {
+        line-height: 0;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+      }
+      .toast-body-content__info {
+        font-size: 15px;
+      }
+    }
+  }
+  

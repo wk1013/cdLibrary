@@ -1,0 +1,43 @@
+.meetingcard {
+  width: 92%;
+  margin: 20px auto 0;
+  .at-card {
+    margin: 0;
+    border: none;
+    .at-card__header {
+      font-size: 32px;
+      .at-card__header-title {
+        color: #028fd4;
+        font-weight: bold;
+      }
+      .at-card__header-extra {
+        color: #888;
+      }
+    }
+    .at-card__content {
+      padding: 40px;
+      .item {
+        font-size: 24px;
+        color: #555;
+        line-height: 48px;
+      }
+      .item::before {
+        content: "■";
+        margin-right: 20px;
+        margin-left: 4px;
+        color: #77302f;
+      }
+      .linkMore {
+        padding-left: 500px;
+      }
+    }
+  };
+  .at-tag {
+    font-size: 24px;
+    // width: 46%;
+    background-color: #fff;
+    border: 0;
+    margin: -2% 1%;
+    padding: 0%;
+  }
+}

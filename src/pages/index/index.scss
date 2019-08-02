@@ -1,0 +1,229 @@
+.index {
+  background: #eee;
+  .logo_wrap {
+    width: 100%;
+    height: 500px;
+    background: url(../../static/img/banner.jpg) no-repeat;
+    background-size: cover;
+    .search {
+      width: 100%;
+      position: absolute;
+      top: 145px;
+      .search_input {
+        width: 92%;
+        margin-left: 4%;
+        background-color: #fff;
+        border: 1px solid #999;
+        border-radius: 25px;
+        color: #000;
+        font-size: 28px;
+        height: 67px;
+        padding: 0 7%;
+        box-sizing: border-box;
+      }
+      .search_input::-webkit-input-placeholder {
+        text-align: left;
+        color: rgb(114, 114, 114);
+        font-size: 22px;
+        padding-right: 3%;
+      }
+      .iconfont {
+        position: absolute;
+        color: rgb(114, 114, 114);
+        top: 17px;
+        font-weight: bold;
+      }
+      .icon-right {
+        right: 5%;
+        font-size: 36px !important;
+      }
+      .icon-left {
+        left: 5%;
+        font-size: 36px !important;
+      }
+      .at-icon-close-circle {
+        font-size: 40px !important;
+      }
+      .extra-wrap {
+        z-index: 999;
+        position: absolute;
+        width: 92%;
+        left: 4%;
+        border-radius: 0 0 10px 10px;
+        border-bottom: 2px solid #028fd4;
+      }
+    }
+  }
+  .carousel {
+    width: 94%;
+    margin: 14px auto 0;
+    border-radius: 8px;
+    .swiper-container {
+      border-radius: 10px;
+      height: 306px;
+    }
+    .itemWrap {
+      .title {
+        position: absolute;
+        bottom: 0;
+        font-size: 28px;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        text-align: center;
+        width: 100%;
+        line-height: 60px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+    .img {
+      width: 100%;
+      height: auto;
+      .taro-img__mode-scaletofill {
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .others {
+    width: 92%;
+    margin: 113px auto 0;
+    background: #fff;
+    height: 200px;
+    border-radius: 15px;
+    .at-grid {
+      height: 100%;
+      .at-grid__flex {
+        height: 100%;
+        .content-inner__img {
+          width: 115px;
+          height: 200px;
+        }
+      }
+      .at-grid-item__content {
+        top: 8px;
+      }
+      .at-grid__flex-item::after {
+        height: 140px;
+        margin-top: 48px;
+        border-width: 0;
+      }
+      .at-grid-item--square::before {
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  .meeting {
+    width: 92%;
+    height: 390px;
+    margin: 45px auto 0;
+    border-radius: 20px;
+    background: url(../../static/img/dahy.png) no-repeat;
+    background-size: cover;
+  }
+  
+
+  .nearLib,
+  .videos {
+    width: 92%;
+    margin: 14px auto 0;
+    .at-card {
+      margin: 0;
+      border: none;
+      .at-card__header {
+        font-size: 32px;
+        .at-card__header-title {
+          font-weight: bold;
+          color: #028fd4;
+        }
+        .at-card__header-extra {
+          color: #888;
+        }
+      }
+      .at-card__content {
+        padding: 20px 0 0 0;
+        .item {
+          font-size: 24px;
+          color: #555;
+          line-height: 48px;
+        }
+        .item::before {
+          content: "■";
+          margin-right: 20px;
+          margin-left: 4px;
+        }
+      }
+    }
+  }
+  .videos {
+    .video-item {
+      height: 220px;
+      width: 43%;
+      flex: 0 0 43%;
+      margin-bottom: 60px;
+      font-family: "Microsoft YaHei";
+      font-size: 26px;
+      .taro-video {
+        height: 180px;
+        border-radius: 10px;
+        .taro-video-bar {
+          padding: 0 0;
+        }
+        .taro-video-duration {
+          display: none;
+        }
+        .taro-video-controls {
+          flex-grow: 0;
+          flex: 0 0 50%;
+          -webkit-box-flex: 0;
+          margin: 0 0;
+        }
+      }
+    }
+    .videoTitle {
+      white-space: normal;
+      word-wrap: break-word;
+      word-break: break-all;
+    }
+  }
+
+  .voice {
+    position: fixed;
+    z-index: 999;
+    bottom: 50px;
+    width: 80%;
+    left: 10%;
+    height: 64px;
+    .at-button {
+      height: 64px;
+      line-height: 64px;
+      background: #028fd4;
+      border: #028fd4;
+      font-size: 30px;
+      .huatong {
+        font-size: 34px !important;
+      }
+    }
+  }
+  .at-toast {
+    .toast-body {
+      padding: 0;
+    }
+    .toast-body-content__img-item {
+      width: 120px;
+      height: auto;
+      min-height: 50px;
+    }
+    .toast-body-content__img {
+      line-height: 0;
+      text-align: center;
+      width: 50%;
+      margin: auto;
+    }
+    .toast-body-content__info {
+      font-size: 15px;
+    }
+  }
+}

@@ -1,0 +1,112 @@
+.contain{
+    background: #eee;
+    min-height: 100vh;
+}
+.banner{
+    background:url(../../static/img/banner.jpg) no-repeat;
+    background-size:100% auto;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.body{
+    margin:20px 15px;
+    .title{
+        font-size: 16px;
+        margin-left: 20px;
+        font-weight: bold;
+        color: #028fd4;
+        font-family: "Microsoft YaHei";
+    }
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px 5px
+}
+.body-text{
+    width: 48%;
+    position: relative
+}
+.taro-img{
+    width: 100%;
+    height: 200px;
+}
+.body-text img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px
+}
+.body-title{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    background-color:rgba(0,0,0,0.6);
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    border-radius:0 0 8px 8px
+}
+.banner_a{
+    background-repeat: no-repeat!important;
+    background-size:100% auto!important;
+    height: 420px;
+}
+.in-title{
+    font-size: 32px;
+    margin-left: 11px;
+    font-weight: bold;
+    color: #028fd4;
+    border-bottom: 2px solid #eee;
+}
+.in-text{
+    font-size: 28px;
+    line-height: 50px;
+    color: #444;
+    font-family: "Microsoft YaHei";
+    margin: 10px 0;
+    text-indent:20px;
+}
+.in-text_a{
+    font-size: 28px;
+    line-height: 40px;
+    color: #444;
+    font-family: "Microsoft YaHei";
+    padding: 10px;
+    text-indent:20px;
+    margin-top: 10px;
+    border-bottom: 2px solid #eee;
+}
+.text-title{
+    color:#083f50bd;
+}
+.text-form{
+    font-size: 24px;
+    color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.at-nav-bar::after{
+    border: none;
+}
+.in-body{
+    background: #fff;
+    border-radius:10px;
+    padding: 10px;
+    margin-bottom: 10px; 
+}
+.biao{
+    color: #028fd4
+}
+.relativity{
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
