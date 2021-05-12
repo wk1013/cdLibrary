@@ -33,7 +33,7 @@
     "moment": "^2.24.0",
     "nerv-devtools": "^1.4.1",
     "nervjs": "^1.4.1",
-    "swiper": "^4.5.0",
+    "swiper": "^6.5.1",
     "taro-ui": "^2.1.0"
   },
   "devDependencies": {
